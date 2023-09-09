@@ -1,5 +1,6 @@
-import 'package:figamtoflutter/screens/loginandsignup_process/signup_biofill_process.dart';
 import 'package:flutter/material.dart';
+
+import 'screens/loginandsignup_process/upload_preview.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MoonShape(),
+      home: UploadPreview(),
     );
   }
 }
