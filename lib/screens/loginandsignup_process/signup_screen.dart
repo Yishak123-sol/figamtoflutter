@@ -1,7 +1,7 @@
 import 'package:figamtoflutter/bar.dart';
-import 'package:figamtoflutter/model/reusable_btn.dart';
 import 'package:figamtoflutter/screens/loginandsignup_process/login_screen.dart';
 import 'package:figamtoflutter/util/app_style.dart';
+import 'package:figamtoflutter/widgets/reusable_btn.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -66,7 +66,7 @@ class SignUpScteen extends StatelessWidget {
             ),
             const SignUpTextField(
               text: 'Email',
-              iconName: 'assets/images/Message.svg',
+              iconName: 'assets/images/Messages.svg',
             ),
             const SizedBox(
               height: 10,

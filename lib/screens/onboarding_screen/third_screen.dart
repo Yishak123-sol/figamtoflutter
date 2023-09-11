@@ -1,4 +1,4 @@
-import 'package:figamtoflutter/model/reusable_btn.dart';
+import 'package:figamtoflutter/widgets/reusable_btn.dart';
 import 'package:flutter/material.dart';
 
 import '../loginandsignup_process/signup_screen.dart';

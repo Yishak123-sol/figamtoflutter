@@ -1,6 +1,6 @@
 import 'package:figamtoflutter/bar.dart';
-import 'package:figamtoflutter/model/reusable_btn.dart';
 import 'package:figamtoflutter/util/app_style.dart';
+import 'package:figamtoflutter/widgets/reusable_btn.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 

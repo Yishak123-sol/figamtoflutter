@@ -1,5 +1,5 @@
-import 'package:figamtoflutter/model/reusable_btn.dart';
 import 'package:figamtoflutter/screens/loginandsignup_process/login_screen.dart';
+import 'package:figamtoflutter/widgets/reusable_btn.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 

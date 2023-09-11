@@ -1,5 +1,5 @@
-import 'package:figamtoflutter/model/reusable_btn.dart';
 import 'package:figamtoflutter/screens/onboarding_screen/third_screen.dart';
+import 'package:figamtoflutter/widgets/reusable_btn.dart';
 import 'package:flutter/material.dart';
 
 class SecondOnBoardingScreen extends StatelessWidget {

@@ -1,4 +1,4 @@
-import 'package:figamtoflutter/model/reusable_btn.dart';
+import 'package:figamtoflutter/widgets/reusable_btn.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -95,9 +95,29 @@ class UploadPreview extends StatelessWidget {
                       height: 30,
                     ),
                     Align(
-                      
                         alignment: Alignment.center,
-                        child: Image.asset('assets/images/Rectangle.png',
+                        child: Stack(
+                          children: [
+                            ClipRRect(
+                              borderRadius:
+                                  const BorderRadius.all(Radius.circular(15)),
+                              child: Image.asset(
+                                'assets/images/Rectangle.png',
+                                fit: BoxFit.cover,
+                              ),
+                            ),
+                            const Positioned(
+                                right: 10,
+                                top: 10,
+                                child: CircleAvatar(
+                                  backgroundColor:
+                                      Color.fromARGB(96, 255, 255, 255),
+                                  child: Icon(
+                                    Icons.clear,
+                                    color: Colors.white,
+                                  ),
+                                ))
+                          ],
                         )),
                   ],
                 ),
